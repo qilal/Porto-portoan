@@ -194,8 +194,8 @@
 }
 
 .circle {
-  width: 300px;
-  height: 330px;
+  width: 150px;
+  height: 180px;
   border-radius: 50%;
   background-color: #6e6e6e6a;
 }
@@ -260,7 +260,7 @@
 }
 .example-2 .icon-content .tooltip {
   position: absolute;
-  top: -30px;
+  top: -10px;
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
@@ -1567,6 +1567,17 @@ progress {
   }
 }
 @media (min-width: 992px) {
+  .circle-lg {
+    width: 300px;
+    height: 330px;
+    border-radius: 50%;
+    background-color: #6e6e6e6a;
+  }  
+  .example-2-lg {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
   .col-lg {
     flex: 1 0 0%;
   }
